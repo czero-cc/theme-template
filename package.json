@@ -1,0 +1,24 @@
+{
+  "name": "czero-theme-template",
+  "version": "1.0.0",
+  "description": "Theme template for CZero Overlay - Create custom visual themes",
+  "main": "theme.json",
+  "scripts": {
+    "create": "node scripts/create-theme.js",
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "preview": "node scripts/preview.js"
+  },
+  "keywords": [
+    "czero",
+    "theme",
+    "template",
+    "customization",
+    "overlay"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.12.0"
+  }
+}

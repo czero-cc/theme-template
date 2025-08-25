@@ -1,0 +1,282 @@
+{
+  "$schema": "../../schema/theme.schema.json",
+  "name": "retro-terminal",
+  "displayName": "Retro Terminal",
+  "description": "Classic green phosphor terminal theme with amber accents",
+  "version": "2.0.0",
+  "author": "CZero Community",
+  "loadingAnimation": "glitch",
+  "colors": {
+    "brand": {
+      "primary": "#00ff00",
+      "secondary": "#ffb000",
+      "tertiary": "#00ffff",
+      "accent": "#ff00ff",
+      "dark": "#000000",
+      "light": "#00ff00"
+    },
+    "semantic": {
+      "success": "#00ff00",
+      "warning": "#ffb000",
+      "error": "#ff0000",
+      "info": "#00ffff"
+    },
+    "background": {
+      "primary": "#000000",
+      "secondary": "#0a0a0a",
+      "tertiary": "#111111",
+      "elevated": "#1a1a1a",
+      "overlay": "rgba(0, 0, 0, 0.95)",
+      "blur": "rgba(0, 0, 0, 0.85)",
+      "muted": "#0a0a0a"
+    },
+    "text": {
+      "primary": "#00ff00",
+      "secondary": "#00cc00",
+      "tertiary": "#009900",
+      "disabled": "#006600",
+      "inverse": "#000000",
+      "accent": "#ffb000",
+      "muted": "#006600",
+      "link": "#00ffff",
+      "linkHover": "#00ff00"
+    },
+    "border": {
+      "default": "rgba(0, 255, 0, 0.3)",
+      "hover": "rgba(0, 255, 0, 0.5)",
+      "focus": "#ffb000",
+      "subtle": "rgba(0, 255, 0, 0.1)",
+      "muted": "rgba(0, 255, 0, 0.05)"
+    },
+    "button": {
+      "primary": {
+        "background": "#00ff00",
+        "text": "#000000",
+        "hover": "#00cc00",
+        "active": "#009900"
+      },
+      "secondary": {
+        "background": "transparent",
+        "text": "#00ff00",
+        "border": "#00ff00",
+        "hover": "rgba(0, 255, 0, 0.2)",
+        "active": "rgba(0, 255, 0, 0.3)"
+      },
+      "ghost": {
+        "background": "transparent",
+        "text": "#00ff00",
+        "hover": "rgba(0, 255, 0, 0.1)",
+        "active": "rgba(0, 255, 0, 0.2)"
+      }
+    },
+    "input": {
+      "background": "rgba(0, 0, 0, 0.8)",
+      "border": "rgba(0, 255, 0, 0.3)",
+      "borderHover": "rgba(0, 255, 0, 0.5)",
+      "borderFocus": "#ffb000",
+      "text": "#00ff00",
+      "placeholder": "#006600"
+    },
+    "card": {
+      "background": "#0a0a0a",
+      "border": "rgba(0, 255, 0, 0.1)",
+      "hover": {
+        "background": "#111111",
+        "border": "rgba(0, 255, 0, 0.2)"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "'VT323', 'Courier New', monospace",
+      "body": "'VT323', 'Courier New', monospace",
+      "mono": "'VT323', 'Courier New', monospace",
+      "display": "'VT323', 'Courier New', monospace"
+    },
+    "fontSize": {
+      "xs": "0.8rem",
+      "sm": "0.9rem",
+      "base": "1.1rem",
+      "lg": "1.25rem",
+      "xl": "1.4rem",
+      "2xl": "1.7rem",
+      "3xl": "2.1rem",
+      "4xl": "2.6rem",
+      "5xl": "3.2rem"
+    },
+    "fontWeight": {
+      "light": 400,
+      "normal": 400,
+      "medium": 400,
+      "semibold": 400,
+      "bold": 400,
+      "extrabold": 400
+    },
+    "lineHeight": {
+      "tight": 1.1,
+      "normal": 1.3,
+      "relaxed": 1.5,
+      "loose": 1.8
+    }
+  },
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem"
+  },
+  "shadows": {
+    "xs": "0 0 4px rgba(0, 255, 0, 0.5)",
+    "sm": "0 0 8px rgba(0, 255, 0, 0.5)",
+    "md": "0 0 16px rgba(0, 255, 0, 0.5)",
+    "lg": "0 0 24px rgba(0, 255, 0, 0.5)",
+    "xl": "0 0 32px rgba(0, 255, 0, 0.5)",
+    "2xl": "0 0 48px rgba(0, 255, 0, 0.8)",
+    "inner": "inset 0 0 8px rgba(0, 255, 0, 0.3)",
+    "glow": "0 0 32px rgba(0, 255, 0, 0.8), inset 0 0 8px rgba(0, 255, 0, 0.3)",
+    "none": "none"
+  },
+  "animations": {
+    "duration": {
+      "instant": "0ms",
+      "fast": "50ms",
+      "normal": "100ms",
+      "slow": "200ms",
+      "slower": "300ms"
+    },
+    "easing": {
+      "linear": "linear",
+      "ease": "step-end",
+      "easeIn": "step-start",
+      "easeOut": "step-end",
+      "easeInOut": "linear",
+      "spring": "step-end"
+    }
+  },
+  "borderRadius": {
+    "none": "0",
+    "sm": "0",
+    "md": "0",
+    "lg": "0",
+    "xl": "0",
+    "2xl": "0",
+    "full": "0"
+  },
+  "variants": {
+    "light": {
+      "colors": {
+        "brand": {
+          "primary": "#009900",
+          "secondary": "#cc7700",
+          "tertiary": "#006666",
+          "accent": "#cc00cc",
+          "dark": "#000000",
+          "light": "#ffffff"
+        },
+        "semantic": {
+          "success": "#00cc00",
+          "warning": "#cc8800",
+          "error": "#cc0000",
+          "info": "#0088cc"
+        },
+        "background": {
+          "primary": "#ffffff",
+          "secondary": "#f5f5f5",
+          "tertiary": "#eeeeee",
+          "elevated": "#ffffff",
+          "overlay": "rgba(255, 255, 255, 0.95)",
+          "blur": "rgba(255, 255, 255, 0.85)",
+          "muted": "#f5f5f5"
+        },
+        "text": {
+          "primary": "#000000",
+          "secondary": "#333333",
+          "tertiary": "#666666",
+          "disabled": "#999999",
+          "inverse": "#ffffff",
+          "accent": "#009900",
+          "muted": "#999999",
+          "link": "#006666",
+          "linkHover": "#009900"
+        },
+        "border": {
+          "default": "rgba(0, 153, 0, 0.3)",
+          "hover": "rgba(0, 153, 0, 0.5)",
+          "focus": "#cc7700",
+          "subtle": "rgba(0, 153, 0, 0.1)",
+          "muted": "rgba(0, 153, 0, 0.05)"
+        }
+      },
+      "shadows": {
+        "xs": "0 0 2px rgba(0, 153, 0, 0.3)",
+        "sm": "0 0 4px rgba(0, 153, 0, 0.3)",
+        "md": "0 0 8px rgba(0, 153, 0, 0.3)",
+        "lg": "0 0 16px rgba(0, 153, 0, 0.3)",
+        "xl": "0 0 24px rgba(0, 153, 0, 0.3)",
+        "2xl": "0 0 32px rgba(0, 153, 0, 0.5)",
+        "inner": "inset 0 0 4px rgba(0, 153, 0, 0.2)",
+        "glow": "0 0 32px rgba(0, 255, 0, 0.5), inset 0 0 8px rgba(0, 255, 0, 0.2)",
+        "none": "none"
+      }
+    },
+    "dark": {
+      "colors": {
+        "brand": {
+          "primary": "#00ff00",
+          "secondary": "#ffb000",
+          "tertiary": "#00ffff",
+          "accent": "#ff00ff",
+          "dark": "#000000",
+          "light": "#00ff00"
+        },
+        "semantic": {
+          "success": "#00ff00",
+          "warning": "#ffb000",
+          "error": "#ff0000",
+          "info": "#00ffff"
+        },
+        "background": {
+          "primary": "#000000",
+          "secondary": "#0a0a0a",
+          "tertiary": "#111111",
+          "elevated": "#1a1a1a",
+          "overlay": "rgba(0, 0, 0, 0.95)",
+          "blur": "rgba(0, 0, 0, 0.85)",
+          "muted": "#0a0a0a"
+        },
+        "text": {
+          "primary": "#00ff00",
+          "secondary": "#00cc00",
+          "tertiary": "#009900",
+          "disabled": "#006600",
+          "inverse": "#000000",
+          "accent": "#ffb000",
+          "muted": "#006600",
+          "link": "#00ffff",
+          "linkHover": "#00ff00"
+        },
+        "border": {
+          "default": "rgba(0, 255, 0, 0.3)",
+          "hover": "rgba(0, 255, 0, 0.5)",
+          "focus": "#ffb000",
+          "subtle": "rgba(0, 255, 0, 0.1)",
+          "muted": "rgba(0, 255, 0, 0.05)"
+        }
+      },
+      "shadows": {
+        "xs": "0 0 4px rgba(0, 255, 0, 0.5)",
+        "sm": "0 0 8px rgba(0, 255, 0, 0.5)",
+        "md": "0 0 16px rgba(0, 255, 0, 0.5)",
+        "lg": "0 0 24px rgba(0, 255, 0, 0.5)",
+        "xl": "0 0 32px rgba(0, 255, 0, 0.5)",
+        "2xl": "0 0 48px rgba(0, 255, 0, 0.8)",
+        "inner": "inset 0 0 8px rgba(0, 255, 0, 0.3)",
+        "glow": "0 0 32px rgba(0, 255, 0, 0.8), inset 0 0 8px rgba(0, 255, 0, 0.3)",
+        "none": "none"
+      }
+    }
+  }
+}
