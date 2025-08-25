@@ -1,6 +1,6 @@
-# CZero Theme Template v2.0
+# CZero Engine Theme Template
 
-Create beautiful, custom themes for CZero Overlay with complete engine compatibility, light/dark mode support, and professional-grade validation.
+Create custom themes for CZero Engine desktop App with light/dark mode support, and ofcourse, comes with its own CLI.
 
 
 ## 🚀 Quick Start
