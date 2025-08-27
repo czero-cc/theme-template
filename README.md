@@ -183,7 +183,6 @@ npm run validate theme.json  # Validates specific theme
 **Installation Path:**
 - Windows: `%APPDATA%\czero-overlay\themes\`
 - macOS: `~/Library/Application Support/czero-overlay/themes/`  
-- Linux: `~/.config/czero-overlay/themes/`
 
 ## 💡 Theme Management Features
 
@@ -211,12 +210,6 @@ npm run validate theme.json  # Validates specific theme
 5. **Component Colors Matter** - Don't skip button/input/card color definitions
 6. **Effects in Moderation** - Enhance, don't distract
 
-## ⚠️ Breaking Changes from v1.0
-
-- **No Backward Compatibility** - v1.0 themes are rejected
-- **Dual Structure Required** - Must have both top-level properties AND variants
-- **Strict Validation** - Incomplete themes fail validation
-- **Component Colors Required** - Button, input, card colors are mandatory
 
 ## 🤝 Contributing & Sharing
 
